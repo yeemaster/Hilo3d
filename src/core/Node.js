@@ -940,7 +940,14 @@ const Node = Class.create(/** @lends Node.prototype */ {
         }
     },
 
+    /**
+     * 矩阵 version
+     * @readonly
+     * @default 0
+     * @type {number}
+     */
     matrixVersion: 0,
+
     /**
      * 获取元素的包围盒信息
      *
